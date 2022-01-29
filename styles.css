@@ -41,7 +41,7 @@
 }
 
 .banner{
-    background-color: blue;
+    background: linear-gradient(to right, pink,rgb(219, 219, 134),cyan);
     grid-area: banner;
 }
 
@@ -66,18 +66,18 @@
 }
 
 .tags{
-    background-color: cyan;
+    background: radial-gradient(purple,rgb(171, 235, 235),lime);
     grid-area: tags;
+
 }
 
 .main{
     background-color: rgb(195, 236, 195);
     grid-area: main;
     display : flex;
-    gap: 5px 20px;
+    gap: 5px 10px;
     justify-content: flex-start;
     flex-wrap: wrap;
-    
 }
     
 .main > div{
@@ -85,7 +85,11 @@
     background-color: grey;
     margin:5px;
     flex-grow: 1;
+}
 
+.main img{
+    max-width: 200px;
+    height: auto;
 }
 
 footer{
@@ -110,6 +114,11 @@ footer{
         "footer footer"
         ;
     }
+
+    .main img{
+        max-width: 350px;
+        height: auto;
+    }
    
 }
 
@@ -129,6 +138,11 @@ footer{
         "recent"
         "footer"
         ;
+    }
+
+    .main img{
+        max-width: 300px;
+        height: auto;
     }
 
     
